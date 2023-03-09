@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+psycopg2 = "*"
+djangorestframework = "*"
+requests = "*"
+types-requests = "*"
+python-dotenv = "*"
+django-environ = "*"
+django-cors-headers = "*"
+pyjwt = "*"
+django-url-filter = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+mypy = "*"
+autopep8 = "*"
+django = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
